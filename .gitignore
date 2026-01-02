@@ -1,0 +1,14 @@
+# Ignore data folders
+data/raw/
+data/processed/
+
+# Ignore large compressed files
+*.zip
+*.7z
+*.tar.gz
+*.parquet
+
+# Ignore environment files
+.env
+__pycache__/
+.ipynb_checkpoints/
